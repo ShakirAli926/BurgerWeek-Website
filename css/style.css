@@ -78,3 +78,95 @@ ul > li > a {
   bottom: 19%;
   right: 7%;
 }
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 60px 30px;
+  gap: 30px 30px;
+}
+.grid-items {
+  display: flex;
+  justify-content: center;
+}
+
+#gridItem1 {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  grid-row: 1 / 2;
+  grid-row: 1 / span 2;
+}
+
+#gridItem2,
+#gridItem3 {
+  width: 60%;
+}
+
+.chooseEnjoy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 50px;
+}
+
+.chooseEnjoy > div:nth-child(1) {
+  background-color: #f7c344;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.chooseEnjoy > div:nth-child(2) {
+  color: #513020;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 10px;
+}
+.chooseEnjoy > div:nth-child(3) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #513020;
+  margin-bottom: 10px;
+}
+.burgerDeal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.burgerDeal > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 50px;
+}
+
+.burgerDeal > div > .DealImage {
+  /* height: 250px; */
+  padding-bottom: 20px;
+}
+
+.speacialDealTitle {
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 28px;
+  color: #513020;
+  padding-bottom: 20px;
+}
+
+.description {
+  font-size: 20px;
+  color: #513020;
+  padding-bottom: 20px;
+}
+
+.OrderBtn > button {
+  color: #ffff;
+  background-color: red;
+  font-family: "Alfa Slab One", cursive;
+  padding: 10px 20px;
+  border: none;
+}
