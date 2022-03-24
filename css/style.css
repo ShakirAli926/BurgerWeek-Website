@@ -170,3 +170,38 @@ ul > li > a {
   padding: 10px 20px;
   border: none;
 }
+#newEvent {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 70px;
+  padding: 30px;
+  box-shadow: grey 10px 5px 15px;
+}
+
+#newEventDescription {
+  width: 50%;
+  padding: 0px 20px;
+}
+#newEventDescription > h1:first-child {
+  color: #513000;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#newEventDescription > h1:nth-child(2) {
+  font-family: "Alfa Slab One", cursive;
+  color: #513020;
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#newEventDescription > p {
+  color: #513000;
+  font-size: 18px;
+}
+#newEventImage {
+  width: 60%;
+  text-align: center;
+}
