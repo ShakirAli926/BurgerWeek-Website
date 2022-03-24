@@ -205,3 +205,113 @@ ul > li > a {
   width: 60%;
   text-align: center;
 }
+
+#tableReservation {
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+#tableReservationContent {
+  text-align: center;
+  width: 50%;
+}
+#tableReservationContent > h1:first-child {
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  color: #513000;
+  letter-spacing: 2px;
+}
+
+#tableReservationContent > h1:nth-child(2) {
+  font-family: "Alfa Slab One", cursive;
+  color: #513020;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+table {
+  margin: 30px 0px;
+  width: 100%;
+  border-spacing: 10px;
+}
+td > input {
+  width: 320px;
+  height: 20px;
+  border-radius: 5px;
+  border: #513000 1px solid;
+  padding: 10px;
+  font-size: 10px;
+  color: #513000;
+}
+td > input::placeholder {
+  color: #513000;
+  font-family: "Bebas Neue", cursive;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+td > button {
+  width: 340px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 2px;
+  height: 45px;
+}
+
+.footer {
+  margin: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/BackgroundFooter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw; */
+  height: 60vh;
+}
+#FooterDesc {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+#FooterTitile {
+  margin: 20px 0px;
+  width: 50%;
+}
+#FooterTitile > div:nth-child(2) {
+  margin: 50px 0px;
+}
+#FooterAddress {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.ContactAddress {
+  display: flex;
+  align-items: center;
+}
+.ContactAddress > span {
+  font-size: 24px;
+  padding-right: 10px;
+}
+.ContactAddress > h2 {
+  margin: 5px;
+}
+
+.FooterCredits {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 70px;
+  align-content: center;
+}
+.FooterCredits span {
+  font-size: 28px;
+  padding-right: 10px;
+}
